@@ -1,0 +1,121 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 105, 105);
+background-image: url(https://i.pinimg.com/736x/18/9c/65/189c6558215ed6114282d31f39269752.jpg);
+}
+
+/* Pseudoelemento aplicado ao h1 adiciaonado couteúdo antes  */
+
+h1::before{
+    content: "tema: ";
+   font-weight: 900;
+   color: rgb(0, 0, 0);
+   
+}
+
+h1{
+    text-align: center;
+    
+ }
+
+
+
+h2{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+img{
+    width: 300px ;
+    margin-left:540px ;
+    
+   
+}
+
+  nav ul {  
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(123, 123, 123); */
+    /* margin: 400px ; */
+    padding: 9px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    
+}
+
+nav ul li{
+    margin: 0 10px 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    padding: 10px ;
+    transition: background-color 0.5s ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(201, 201, 201);
+
+   
+}
+
+nav ul li a:active{
+    background-color: chartreuse;
+}
+
+nav ul li a:visited{
+
+    color: rgb(0, 0, 0);
+}
+
+p::first-letter{
+    font-size: 1.5rem ;
+}
+
+footer{
+    margin-top: 40px  ;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 10px ;
+    background-image: url(https://i.pinimg.com/originals/ab/1f/f3/ab1ff3ec32022f981e308a54fa50f2ae.jpg);
+    color: beige;
+}
+
+@media (max-width: 428px) {
+
+    img{
+        width: 300px ;
+       margin-left: 50px;
+    }
+}
+
+
+/* @media (max-width: 480px) {
+    .column {
+        flex: 1 1 100%;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+}
+
+@media ( max-width: 768px) {
+    .
+
+     
+}
+
+@media (max-width: 1200px ){
+    
+} */
